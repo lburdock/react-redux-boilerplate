@@ -1,0 +1,12 @@
+default:
+    - "watch"
+
+lint:
+    - "eslint"
+
+test:
+    - "mochaTest"
+
+bundle:
+    - "sass"
+    - "webpack"
