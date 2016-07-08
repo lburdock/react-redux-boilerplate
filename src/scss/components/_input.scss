@@ -1,29 +1,30 @@
-input[type=text] {
-    color: #555555;
-    border: none;
-    border-bottom: solid 1px #DDDDDD;
-    padding: 5px;
-    width: 500px;
+input {
+    &[type='text'] {
 
-    &:focus {
-        outline: none;
+        border: 0;
+        border-bottom: solid 1px $input-outlint-color;
+        color: $input-text-color;
+        padding: 5px;
+        width: 500px;
+
+        &:focus {
+            outline: 0;
+        }
     }
 }
 
 button {
-    $button-color: #0e83cd;
-
-    background-color: white;
+    background-color: $white;
     border: solid 2px $button-color;
     color: $button-color;
     margin: 20px;
     padding: 10px;
     text-transform: uppercase;
-    transition: all 0.3s;
+    transition: .3s;
 
     &:hover {
         background-color: $button-color;
-        color: white;
+        color: $white;
     }
 
     &:focus {
