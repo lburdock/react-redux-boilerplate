@@ -11,7 +11,7 @@ This is a boilerplate for a react/redux app using grunt, sass, and webpack.
 ## Developing
 
 #### Main tasks
-* Run `npm run server` in one tab to serve the app to http://localhost:3000/.
+* Run `npm run start` in one tab to serve the app to http://localhost:3000/.
 * Run `grunt` in another tab to lint and test your SCSS and JS changes as you develop.
 
 #### Other tasks
