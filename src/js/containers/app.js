@@ -1,5 +1,5 @@
-import { connect } from 'react-redux';
-import App from '../components/app.react';
+import { connect } from "react-redux";
+import App from "../components/App";
 
 function mapStateToProps(state) {
     return {
@@ -8,5 +8,5 @@ function mapStateToProps(state) {
 }
 
 export default connect(
-    mapStateToProps
+    mapStateToProps,
 )(App);

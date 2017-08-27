@@ -1,5 +1,7 @@
-import keymirror from 'keymirror';
+import keymirror from "keymirror";
 
-module.exports = keymirror({
+const actionTypes = keymirror({
     GET_ANSWER: null,
 });
+
+export default actionTypes;
