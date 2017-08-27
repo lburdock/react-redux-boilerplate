@@ -1,5 +1,5 @@
-import actionTypes from '../actions/types';
-import { getRandomIndex } from '../utils/math-utils';
+import actionTypes from "../actions/types";
+import { getRandomIndex } from "../utils/math-utils";
 
 const possibleAnswers = [
     "It is certain.",
@@ -31,8 +31,7 @@ const arrayLength = possibleAnswers.length;
  * @param {object} action The action that triggers this reducer
  * @return {string} A random answer from the possibleAnswers list
  */
-export default function(state = '', action) {
-
+export default function (state = "", action) {
     switch (action.type) {
         case actionTypes.GET_ANSWER:
             return possibleAnswers[getRandomIndex(arrayLength)];

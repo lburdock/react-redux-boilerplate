@@ -1,5 +1,5 @@
-import { combineReducers } from 'redux';
-import answer from './answer';
+import { combineReducers } from "redux";
+import answer from "./answer";
 
 const rootReducer = combineReducers({
     answer,

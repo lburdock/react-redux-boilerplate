@@ -1,6 +1,6 @@
-import { connect } from 'react-redux';
-import { getAnswer } from '../actions/answer';
-import Input from '../components/input.react';
+import { connect } from "react-redux";
+import { getAnswer } from "../actions/answer";
+import Input from "../components/Input";
 
 function mapDispatchToProps(dispatch) {
     return {
@@ -19,5 +19,5 @@ function mapDispatchToProps(dispatch) {
 
 export default connect(
     null,
-    mapDispatchToProps
+    mapDispatchToProps,
 )(Input);

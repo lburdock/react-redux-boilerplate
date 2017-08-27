@@ -1,40 +1,29 @@
 # react-flux-boilerplate
 
-This is a boilerplate for a react/redux app using grunt, sass, and webpack.
+This is a boilerplate for a react/redux app using webpack, sass, and mocha.
 
 ## Installation
 
-1. Install [node.js](https://nodejs.org/en/).
-2. Install the grunt-cli globally: `sudo npm install -g grunt-cli`
-3. Install node dependencies: `npm install`
+```
+git clone git@github.com:lburdock/react-redux-boilerplate.git
+nvm use
+npm install
+```
 
-## Developing
+## Running the server locally
 
-#### Main tasks
-* Run `npm run start` in one tab to serve the app to http://localhost:3000/.
-* Run `grunt` in another tab to lint and test your SCSS and JS changes as you develop.
+* Run `npm start` to run the server and watch for code changes
+* Open http://localhost:8080/ in your browser.
 
 #### Other tasks
-* `grunt verify` will lint and test your SCSS and JS code.
 
-
-## Deploying to GitHub Pages
-
-`npm run deploy`
+* Run tests: `npm run test`
+* Lint code: `npm run lint`
 
 ## Resources
 
-* React structure
-  * [Facebook's Todo tutorial](https://facebook.github.io/flux/docs/todo-list.html)
-  * [Facebook's Todo app on github](https://github.com/facebook/flux/tree/master/examples/flux-todomvc)
+* [How to structure a sass project](http://thesassway.com/beginner/how-to-structure-a-sass-project)
+* [Normalize scss](https://github.com/kristerkari/normalize.scss)
+* [Setup a React Environment Using webpack and Babel](https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel)
+* [Production webpack](https://webpack.js.org/guides/production/)
 
-* Development environment
-  * [Grunt-ify Your Front-End Development](https://www.youtube.com/watch?v=5PJZC71Pac0&index=41&list=PLSZHCj84JSDO3RvO639TxREnqiuD7WvQv)
-  * [A React and Webpack Workflow](https://vimeo.com/171783550)
-  * [Setting up React for ES6 with Webpack and Babel](https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html)
-  * [Babel for ES6](https://babeljs.io/docs/setup/)
-  * [How to structure a sass project](http://thesassway.com/beginner/how-to-structure-a-sass-project)
-  * [Normalize scss](https://github.com/kristerkari/normalize.scss)
-
-* Deployment
-    * [Deploying a subfolder to GitHub Pages](https://gist.github.com/cobyism/4730490)
